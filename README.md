@@ -84,16 +84,6 @@ The direction of the turn depends on which bumper was hit.
 
 ---
 
-## How to Run
-
-1. Open Webots and load the iRobot Create world
-2. In the scene tree, select the robot node and set `supervisor = TRUE`
-3. Set the controller to `robot_controller_with_avoidance.py`
-4. Press **Play**
-
-The robot will start moving, the GA thread and fuzzer thread will launch automatically after a short warm-up period.
-
----
 
 ## Output
 
