@@ -1,10 +1,9 @@
 # Search-Based Fuzzing for Robot Controller Testing
 **iRobot Create — Webots Simulation**
-**Author:** Rayene
 
 ---
 
-## What This Project Does
+## What This Controller does
 
 This project implements a robot controller for the **iRobot Create** robot in the **Webots** simulator. The robot drives from a starting position to a target point while automatically avoiding obstacles.
 
@@ -15,9 +14,9 @@ The project also runs two extra tasks **in parallel** (at the same time as the r
 
 ---
 
-## Project Structure
+## Structure
 
-The entire project is one Python file: `robot_controller_with_avoidance.py`
+The entire project is one Python file: `robot_controller.py`
 
 It contains three parts that run simultaneously:
 
